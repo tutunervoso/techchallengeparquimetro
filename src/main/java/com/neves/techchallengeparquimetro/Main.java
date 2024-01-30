@@ -27,7 +27,7 @@ public class Main {
         }
 
         // Exclua um veículo
-        boolean isDeleted = parquimetro.apagarCarro(carroEstacionado.getId());
+        boolean isDeleted = parquimetro.apagarCarro("65b85cba4826607857915ee7");
         System.out.println("Veículo excluído: " + isDeleted);
 
         // Liste todos os veículos estacionados
